@@ -69,7 +69,7 @@ def file_upload():
 def xss_reflected():
     return xss_reflected_page(request, app)
 
-
+#test2
 @app.route('/xss/stored', methods=['GET', 'POST'])
 def xss_stored():
     if request.method == 'GET':
