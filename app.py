@@ -13,6 +13,7 @@ from db_helper import db_helper
 from db_models import db_models
 from middlewares import require_api_key
 
+#Margarita is the best !!
 
 app = Flask(__name__)
 
